@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".modifier_contrat">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:background="#D7DBDD"
+        android:gravity="center"
+        android:text="Modifier Contrat"
+        android:textColor="#3F51B5"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nom Client"
+        android:translationY="200px" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Réfèrence"
+        android:translationY="200px" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Date Début"
+        android:translationY="200px" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Date Fin "
+        android:translationY="200px" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Redevence"
+        android:translationY="200px" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Client"
+        android:translationY="200px" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Adresse Client"
+        android:translationY="200px" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmer Modif"
+        android:translationY="300px"
+        app:icon="@android:drawable/ic_menu_agenda" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="retour"
+        android:translationY="300px"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconTint="#866DB3" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exit "
+        android:translationY="300px"
+        app:icon="@android:drawable/btn_dialog" />
+
+</LinearLayout>

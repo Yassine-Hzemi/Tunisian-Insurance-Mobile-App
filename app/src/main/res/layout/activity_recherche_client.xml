@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".recherche_client">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:background="#D7DBDD"
+        android:gravity="center"
+        android:text="Recherche Client"
+        android:textColor="#3F51B5"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saisir Nom Client"
+        android:textSize="24sp"
+        android:translationY="200px" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName25"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:translationY="200px" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Chercher"
+        android:translationY="300px"
+        app:icon="?android:attr/actionModeWebSearchDrawable" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:translationY="400px"
+        app:srcCompat="?android:attr/actionModeFindDrawable" />
+
+</LinearLayout>

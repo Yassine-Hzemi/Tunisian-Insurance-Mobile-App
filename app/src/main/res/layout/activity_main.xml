@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:background="#D8D4D4"
+        android:gravity="center"
+        android:text="MENU"
+        android:textColor="#3F51B5"
+        android:textSize="96sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FBFBFB"
+        android:hapticFeedbackEnabled="false"
+        android:text="CONTRATS"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:translationY="200px"
+        app:icon="?attr/actionModePasteDrawable"
+        app:iconTint="#03F4EC" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:text="CLIENTS"
+        android:textSize="34sp"
+        android:translationY="400px"
+        app:icon="@android:drawable/ic_menu_myplaces"
+        app:iconTint="#03F4EC" />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".id_modif_contrat">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:background="#D7DBDD"
+        android:gravity="center"
+        android:text="Modifier Contrat"
+        android:textColor="#3F51B5"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saisie ID Contrat "
+        android:textSize="20sp"
+        android:translationY="200px" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName23"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:translationY="300px" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="suivant"
+        android:translationY="400px" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:translationY="450px"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+</LinearLayout>

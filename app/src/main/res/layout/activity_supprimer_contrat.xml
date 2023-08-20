@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".supprimer_contrat">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:background="#D7DBDD"
+        android:gravity="center"
+        android:text="Supprimer Contrat"
+        android:textColor="#3F51B5"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName24"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Saisie ID Contrat"
+        android:translationY="300px" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Supprimer"
+        android:translationY="500px"
+        app:icon="@android:drawable/ic_notification_clear_all"
+        app:iconTint="#C5B3E6" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retour"
+        android:translationY="500px"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconTint="#AA99C8" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        android:translationY="500px"
+        app:icon="@android:drawable/btn_dialog" />
+
+</LinearLayout>
